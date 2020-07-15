@@ -41,20 +41,19 @@
                 <ul class="list-unstyled">
                     <li class="mb-3">
                         <strong class="d-block mb-1">Address</strong>
-                        <span>Jl Tg Harapan Lr Tg Baru, No 111, Tembilahan, Indragiri
-                            Hilir, Riau</span>
+                        <span><?= $profil[0]['alamat']; ?></span>
                     </li>
                     <li class="mb-3">
                         <strong class="d-block mb-1">Phone</strong>
-                        <span>+62 853 6462 3827</span>
+                        <span><?= $profil[0]['telpon']; ?></span>
                     </li>
                     <li class="mb-3">
                         <strong class="d-block mb-1">Email</strong>
-                        <span>ridhodarmawan255@gmail.com</span>
+                        <span><?= $profil[0]['email']; ?></span>
                     </li>
                     <li class="mb-3">
                         <strong class="d-block mb-1"></strong>
-                        <span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7617069333023!2d103.15017741425387!3d-0.30522579977729863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e28406b4637f573%3A0xabe3e5d83f59a23c!2sLorong%20Tj.%20Baru%2C%20Tembilahan%2C%20Kabupaten%20Indragiri%20Hilir%2C%20Riau%2029214!5e0!3m2!1sid!2sid!4v1594751297936!5m2!1sid!2sid" width="350" height="300" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></span>
+                        <span><iframe src="<?= $profil[0]['peta']; ?>" width="350" height="300" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></span>
                     </li>
                 </ul>
             </div>

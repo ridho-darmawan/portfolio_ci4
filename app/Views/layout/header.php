@@ -10,8 +10,8 @@
     <meta content="" name="keywords" />
 
 
-    <link href="assets/img/your-logo.png" rel="icon" />
-    <link href="assets/img/your-logo.png" rel="apple-touch-icon" />
+    <link href="assets/img/<?= $profil[0]['icon'];?>" rel="icon" />
+    <link href="assets/img/<?= $profil[0]['icon'];?>" rel="apple-touch-icon" />
 
 
     <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />

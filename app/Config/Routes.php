@@ -34,7 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Work::index');
 $routes->get('/about', 'About::index');
 $routes->get('/service', 'Service::index');
-$routes->get('/work', 'Portfolio::index');
+$routes->get('/portfolio', 'Portfolio::index');
 $routes->get('/contact', 'ProfileWeb::index');
 
 

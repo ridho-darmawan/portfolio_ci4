@@ -17,7 +17,7 @@
                     <a class="nav-link" href="/service" style="padding-right: 50px !important;">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/work" style="padding-right: 50px !important;">Work</a>
+                    <a class="nav-link" href="/portfolio" style="padding-right: 50px !important;">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/contact">Contact</a>

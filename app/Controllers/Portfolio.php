@@ -7,6 +7,7 @@ use CodeIgniter\Model;
 use App\Models\Portfolio_model;
 use App\Models\Work_model;
 use App\Models\Testimonial_model;
+use App\Models\Profil_model;
 
 
 class Portfolio extends BaseController
@@ -17,6 +18,7 @@ class Portfolio extends BaseController
 		$this->Portfolio_model = new Portfolio_model;
 		$this->Work_model = new Work_model;
 		$this->Testimonial_model = new Testimonial_model;
+		$this->Profil_model = new Profil_model();
 	}
 
 	public function index()
@@ -25,7 +27,8 @@ class Portfolio extends BaseController
 			'title' => 'Portfolio | ridho darmawan',
 			'work' => $this->Work_model->getWork(),
 			'testimonial' => $this->Testimonial_model->getTestimonial(),
-			'portfolio' => $this->Portfolio_model->getPortfolio()
+			'portfolio' => $this->Portfolio_model->getPortfolio(),
+			'profil' => $this->Profil_model->getProfil(),
 		];
 
 		echo view('layout/header', $data);

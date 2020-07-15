@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row mb-5 align-items-center">
             <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-                <h2>Hey, I'm Ridho Darmawan</h2>
+                <h2>Hey, I'm <?= $profil[0]['name_profil']; ?></h2>
                 <p class="mb-0">
-                    Freelance Web Developer
+                    <?= $profil[0]['des_job']; ?>
                 </p>
             </div>
             <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
