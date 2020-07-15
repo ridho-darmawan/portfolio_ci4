@@ -8,19 +8,19 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link" style="padding-right: 50px !important;">Home</a>
+                    <a href="/" class="nav-link" style="padding-right: 50px !important;">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html" style="padding-right: 50px !important;">About Me</a>
+                    <a class="nav-link" href="/about" style="padding-right: 50px !important;">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html" style="padding-right: 50px !important;">Services</a>
+                    <a class="nav-link" href="/service" style="padding-right: 50px !important;">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="works.html" style="padding-right: 50px !important;">Work</a>
+                    <a class="nav-link" href="/work" style="padding-right: 50px !important;">Work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="/contact">Contact</a>
                 </li>
             </ul>
         </div>
