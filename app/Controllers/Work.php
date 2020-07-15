@@ -1,10 +1,12 @@
-<?php namespace App\Controllers;
+<?php
 
-class Home extends BaseController
+namespace App\Controllers;
+
+class Work extends BaseController
 {
 	public function index()
 	{
-		return view('welcome_message');
+		return view('index');
 	}
 
 	//--------------------------------------------------------------------
